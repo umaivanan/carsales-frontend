@@ -18,7 +18,7 @@ const Login = () => {
     try {
       // API request to login
       const response = await axios.post(
-        "http://localhost:5000/api/auth/login", // Replace with your backend login API URL
+        "http://localhost:8000/api/auth/login", // Replace with your backend login API URL
         {
           email,
           password,

@@ -7,7 +7,7 @@ import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 import Login  from "./Components/Authentication/Login";
 import Register from "./Components/Authentication/Register"
-
+import FirstPage from "./Components/pages/FirstPage";
 function App() {
   return (
     <Router>
@@ -19,7 +19,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login/>} />
           <Route path="/register" element={<Register/>} />
-
+          <Route path="/firstpage" element={<FirstPage />} />
         </Routes>
       </div>
     </Router>
